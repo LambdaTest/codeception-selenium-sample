@@ -26,15 +26,6 @@ composer install
 
 ### Run tests
 ```bash
-php artisan dusk
+./vendor/bin/codecept run --steps
 ```
-
-### Generate test cases
-- Change directory to project root `cd /your/project`
-- Execute `php artisan dusk:make {test case name}` 
-    e.g:
-    ```bash
-    php artisan dusk:make TodoTest
-    ```
-### Note
-Our sample test case can be found in `tests/Browser/TodoTest.php` file. It navigates to our sample to-do app.
+ 
