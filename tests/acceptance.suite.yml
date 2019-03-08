@@ -18,7 +18,7 @@ modules:
           browserName: 'Chrome'                 # request the latest version of chrome
           platform: 'ANY'
           version: '71.0' 
-          tunnel: false
+          tunnel: true
           network: true
           video: true
           visual: true
