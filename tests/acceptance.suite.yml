@@ -8,7 +8,7 @@ class_name: AcceptanceTester
 modules:
    enabled:
       - WebDriver:
-         url: 'https://lambdatest.github.io/'
+         url: 'http://sl-test.herokuapp.com/guinea_pig/file_upload'
          host: '{username}:{token}@hub.lambdatest.com'
          port: 80
          browser: chrome
