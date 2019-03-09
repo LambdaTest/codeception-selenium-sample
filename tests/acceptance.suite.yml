@@ -8,7 +8,7 @@ class_name: AcceptanceTester
 modules:
    enabled:
       - WebDriver:
-         url: 'http://sl-test.herokuapp.com/guinea_pig/file_upload'
+         url: 'http://10.0.0.83:8000/wp-admin/media-new.php'
          host: '{username}:{token}@hub.lambdatest.com'
          port: 80
          browser: chrome

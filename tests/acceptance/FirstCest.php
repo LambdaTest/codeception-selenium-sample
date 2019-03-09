@@ -5,7 +5,12 @@ class FirstCest
     {
         sleep(5);
         $I->amOnPage('/');
-        $I->attachFile('//*[@id="myfile"]', 'sample.jpeg');
-         $I->click('//*[@id="submit"]');
+        $I->fillField('//*[@id="user_login"]', "nikhil");
+        $I->fillField('//*[@id="user_pass"]', "nik@1234");
+        $I->click('//*[@id="wp-submit"]');
+        sleep(5);
+        $I->attachFile('//*[@type="file"]', 'sample.jpeg');
+        sleep(5);
+         
     }
 }
