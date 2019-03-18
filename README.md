@@ -15,8 +15,8 @@ composer install
 
 ### Configuration steps
 - Create go to tests/acceptance.suite.yml
-- Replace `{username}` with your LambdaTest username. It can be obtained from [LambdaTest dashbaord](https://automation.lambdatest.com/)
-- Replace `{token}` with your access key. It can be generated from [LambdaTest dashbaord](https://automation.lambdatest.com/) 
+- Replace `{username}` with your LambdaTest username. It can be obtained from [LambdaTest dashboard](https://automation.lambdatest.com/)
+- Replace `{token}` with your access key. It can be generated from [LambdaTest dashboard](https://automation.lambdatest.com/) 
 
 #####  Routing traffic through your local machine
 - Set tunnel value to `true` in test capabilities
