@@ -1,7 +1,7 @@
 ![LambdaTest Logo](https://www.lambdatest.com/static/images/logo.svg)
 ---
 
-# codeception-selenium-sample
+# Codeception Selenium Sample
 A Sample codeception app to run selenium automation tests on LambdaTest grid. 
 
 ### Prerequisites
