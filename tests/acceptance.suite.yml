@@ -9,18 +9,13 @@ modules:
    enabled:
       - WebDriver:
          url: 'https://lambdatest.github.io/'
-         host: '{username}:{token}@hub.lambdatest.com'
+         host: '%LT_USERNAME%:%LT_ACCESS_KEY%@hub.lambdatest.com'
          port: 80
          browser: chrome
          capabilities:
           name: 'Codeception Example'
-          build: '1.0'
+          build: 'codeception-sample'
           browserName: 'Chrome'                 # request the latest version of chrome
-          platform: 'ANY'
-          version: '71.0' 
-          tunnel: true
-          network: true
-          video: true
-          visual: true
-          console: true
+          platform: 'Windows 10'
+          version: 'latest' 
 

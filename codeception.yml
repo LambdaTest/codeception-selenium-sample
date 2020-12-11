@@ -1,3 +1,5 @@
+params:
+    - env # load params from environment vars
 paths:
     tests: tests
     output: tests/_output
