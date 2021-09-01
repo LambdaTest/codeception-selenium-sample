@@ -1,5 +1,5 @@
 {
     "require-dev": {
-        "codeception/codeception": "^2.5"
+        "codeception/codeception": "^3.1"
     }
 }
