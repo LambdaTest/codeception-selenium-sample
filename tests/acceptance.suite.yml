@@ -11,11 +11,11 @@ modules:
          url: 'https://lambdatest.github.io/'
          host: '%LT_USERNAME%:%LT_ACCESS_KEY%@hub.lambdatest.com'
          port: 80
-         browser: chrome
+         browser: firefox
          capabilities:
           name: 'Codeception Example'
           build: 'codeception-sample'
-          browserName: 'Chrome'                 # request the latest version of chrome
+          browser: 'firefox'                 # request the latest version of chrome
           platform: 'Windows 10'
           version: 'latest' 
 
