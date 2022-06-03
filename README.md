@@ -22,6 +22,8 @@
 
 *Learn how to use Codeception framework to configure and run your PHP automation testing scripts on the LambdaTest platform*
 
+[<img height="70" width="220" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register)
+
 ## Table Of Contents
 
 * [Pre-requisites](#pre-requisites)
@@ -89,7 +91,7 @@ Make sure you have your LambdaTest credentials with you to run test automation s
 ## Run Your First Test
 
 
->**Test Scenario**: Check out the sample acceptance [FirstCest.php](https://github.com/LambdaTest/codeception-selenium-sample/blob/master/tests/acceptance/FirstCest.php) file.
+>**Test Scenario**: Check out the sample acceptance [FirstCest.php](https://github.com/LambdaTest/codeception-selenium-sample/blob/master/tests/acceptance/FirstCest.php) file. This Codeception Selenium script tests a sample to-do list app by marking couple items as done, adding a new item to the list and finally displaying the count of pending items as output.
 
 ### Configuration Of Your Test Capabilities
 
@@ -186,8 +188,7 @@ To stay updated with the latest features and product add-ons, visit [Changelog](
 * LT Browser - for responsive testing across 50+ pre-installed mobile, tablets, desktop, and laptop viewports
 
     
-[<img height="70" src="https://user-images.githubusercontent.com/70570645/169649126-ed61f6de-49b5-4593-80cf-3391ca40d665.PNG">](https://accounts.lambdatest.com/register)
-
+[<img height="70" width="220" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register)
 
       
 ## We are here to help you :headphones:
