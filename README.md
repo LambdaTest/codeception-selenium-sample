@@ -129,7 +129,7 @@ Open command prompt and navigate to the binary folder.
 Run the following command:
 
 ```bash
-LT -user {user’s login email} -key {user’s access key}
+LT --user {user’s login email} --key {user’s access key}
 ```
 So if your user name is lambdatest@example.com and key is 123456, the command would be:
 
@@ -141,8 +141,13 @@ Once you are able to connect **LambdaTest Tunnel** successfully, you would just 
 **Tunnel Capability**
 
 ```
-DesiredCapabilities capabilities = new DesiredCapabilities();        
-        capabilities.setCapability("tunnel", true);
+const capability = {
+	"LT:Options": {
+		"username": "LT_USERNAME",
+		"accessKey": "LT_ACCESS_KEY",
+		"tunnel": true
+	}
+}
 ```
 
 ## Additional Links
