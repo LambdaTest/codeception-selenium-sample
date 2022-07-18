@@ -141,13 +141,13 @@ Once you are able to connect **LambdaTest Tunnel** successfully, you would just 
 **Tunnel Capability**
 
 ```
-const capability = {
-	"LT:Options": {
-		"username": "LT_USERNAME",
-		"accessKey": "LT_ACCESS_KEY",
-		"tunnel": true
-	}
-}
+$capability = array(
+	"LT:Options" => array(
+		"username" => "LT_USERNAME",
+		"accessKey" => "LT_USERNAME",
+		"tunnel" => true,
+	)
+);
 ```
 
 ## Additional Links
