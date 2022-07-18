@@ -134,7 +134,7 @@ LT --user {user’s login email} --key {user’s access key}
 So if your user name is lambdatest@example.com and key is 123456, the command would be:
 
 ```bash
-LT -user lambdatest@example.com -key 123456
+LT --user lambdatest@example.com --key 123456
 ```
 Once you are able to connect **LambdaTest Tunnel** successfully, you would just have to pass on tunnel capabilities in the code shown below :
 
@@ -144,7 +144,7 @@ Once you are able to connect **LambdaTest Tunnel** successfully, you would just 
 $capability = array(
 	"LT:Options" => array(
 		"username" => "LT_USERNAME",
-		"accessKey" => "LT_USERNAME",
+		"accessKey" => "LT_ACCESS_KEY",
 		"tunnel" => true,
 	)
 );
