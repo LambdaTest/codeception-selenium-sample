@@ -50,9 +50,11 @@ Before you begin automation testing with Selenium and Codeception, you would nee
 
 **Note:** For **Windows**, you can download **PHP** from [here](http://windows.php.net/download/). Also, refer to this [documentation](http://php.net/manual/en/install.windows.php) for ensuring the accessibility of PHP through Command Prompt(cmd).
 
-* Download **composer** in the project directory ([Linux/MacOS](https://getcomposer.org/download/), [Windows](https://getcomposer.org/doc/00-intro.md#installation-windows)).
+## Download composer in the project directory (use below links)
+* [Linux/MacOS](https://getcomposer.org/download/)
+* [Windows](https://getcomposer.org/doc/00-intro.md#installation-windows)
 
-**Note:** To use the **composer** command directly, it either should have been downloaded in the project directory or should be accessible globally which can be done by the command below:
+**Note:** To use the **composer** command directly, it either should have been downloaded in the project directory or should be accessible globally which can be done by the command below(if not executed already as per composed download page steps):
 
   ```bash
   mv composer.phar /usr/local/bin/composer
