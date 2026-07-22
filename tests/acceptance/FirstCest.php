@@ -4,10 +4,10 @@ class FirstCest
     public function frontpageWorks(AcceptanceTester $I)
     {
         sleep(5);
-        $I->amOnPage('/sample-todo-app/');
+        $I->amOnPage('/selenium-playground/todo-app/');
         sleep(2);
-        $I->checkOption('/html/body/div/div/div/ul/li[4]/input');
+        $I->checkOption("//input[@name='li4']");
         sleep(2);
-        $I->checkOption('/html/body/div/div/div/ul/li[5]/input');
+        $I->checkOption("//input[@name='li5']");
     }
 }
