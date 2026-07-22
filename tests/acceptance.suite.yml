@@ -8,7 +8,7 @@ actor: AcceptanceTester
 modules:
    enabled:
       - WebDriver:
-         url: 'https://lambdatest.github.io/'
+         url: 'https://www.testmuai.com/'
          host: '%LT_USERNAME%:%LT_ACCESS_KEY%@hub.lambdatest.com'
          port: 80
          browser: firefox
